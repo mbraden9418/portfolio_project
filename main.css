@@ -1,0 +1,123 @@
+body {
+  font-family: fantasy;
+  background-color: lightblue;
+  color: teal;
+  margin: 5%;
+  padding: 5%;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  padding: 20px;
+}
+
+.marla {
+  color: white;
+  font-size: 20px;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+p {
+  text-indent: 60px
+  padding: 2%;
+  line-height: 32px;
+}
+
+ul.navbar
+{
+  list-style: none;
+  border-bottom: 1px solid black;
+  max-width: 600px;
+
+}
+
+.navbar li
+{
+  display: inline-block;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+.marlaface
+{
+  height: auto;
+  width: 250px;
+  margin: 20px;
+  float: left;
+
+}
+
+#experience p
+{
+  text-indent: 30px
+}
+
+.textcenter{
+  text-align: center;
+  color: teal;
+}
+
+.skillsbox
+{
+  width:200px;
+  height: auto;
+  background-color: teal;
+  color: lightblue;
+  margin: 10px;
+  text-align: center;
+}
+
+.projectbox {
+  text-align: center;
+}
+
+.projectbox
+{
+  width:50%;
+  height:auto;
+  background-color: teal;
+  color: lightblue;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.skills ul {
+  list-style: none;
+
+}
+
+.box-wrapper {
+  width: 50%;
+  float: right;
+  margin-bottom: 60px;
+}
+
+.projectbox p {
+  margin-bottom: 20px;
+}
+
+.skills li {
+  display: inline-block;
+}
+
+.marla {
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+.content {
+  background-color: white;
+  color: green;
+  padding: 15px;
+}
+
+p
+{
+margin: 0 15px;
+}
