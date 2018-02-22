@@ -1,12 +1,19 @@
+/*individual subject headings */
+.textcenter {
+  text-align: center;
+  color: black;
+}
+
+/*body of page*/
 body {
   font-family: fantasy;
-  background-color: lightblue;
-  color: teal;
+  background-color: CornflowerBlue;
+  color:black;
   margin: 5%;
   padding: 5%;
 }
 
-
+/*header with navigation bar and links*/
 a {
   text-decoration: none;
   color: white;
@@ -20,31 +27,32 @@ a {
   color: white;
   font-size: 20px;
   /* font-family: 'Montserrat', sans-serif; */
+  border-right: 1px solid black;
+  padding-right: 10px;
 }
 
-p {
-  text-indent: 60px
-  padding: 2%;
-  line-height: 32px;
-}
-
-ul.navbar
-{
+ul.navbar {
   list-style: none;
   border-bottom: 1px solid black;
   max-width: 600px;
 
 }
 
-.navbar li
-{
+.navbar li {
   display: inline-block;
   margin-right: 20px;
   padding-bottom: 10px;
 }
 
-.marlaface
-{
+/*styling all paragraphs*/
+p {
+  text-indent: 60px
+  padding: 2%;
+  line-height: 32px;
+}
+
+/* profile picture  */
+.marlaface {
   height: auto;
   width: 250px;
   margin: 20px;
@@ -52,32 +60,33 @@ ul.navbar
 
 }
 
-#experience p
-{
+/* paragraphs about my experiences */
+#experience p {
   text-indent: 30px
 }
 
-.textcenter{
-  text-align: center;
-  color: teal;
-}
-
-.skillsbox
-{
+/* box for my skills */
+.skillsbox {
   width:200px;
   height: auto;
-  background-color: teal;
+  background-color: Teal;
   color: lightblue;
   margin: 10px;
   text-align: center;
+  box-shadow:  3px 3px 4px CadetBlue;
 }
 
+.skills li {
+  display: inline-block;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+/*box and wrapper for my project pages and links */
 .projectbox {
   text-align: center;
-}
-
-.projectbox
-{
   width:50%;
   height:auto;
   background-color: teal;
@@ -85,12 +94,9 @@ ul.navbar
   display: block;
   margin: 0 auto;
   padding: 20px;
+  box-shadow:  5px 5px 2px CadetBlue;
 }
 
-.skills ul {
-  list-style: none;
-
-}
 
 .box-wrapper {
   width: 50%;
@@ -98,26 +104,8 @@ ul.navbar
   margin-bottom: 60px;
 }
 
+/* descriptive paragraphs within project box */
 .projectbox p {
+  text-align: left;
   margin-bottom: 20px;
-}
-
-.skills li {
-  display: inline-block;
-}
-
-.marla {
-  border-right: 1px solid black;
-  padding-right: 10px;
-}
-
-.content {
-  background-color: white;
-  color: green;
-  padding: 15px;
-}
-
-p
-{
-margin: 0 15px;
 }
